@@ -56,7 +56,7 @@ function dePalabrasAFrase(palabras) {
 
 function arrayContiene(array, elemento) {
    // Verifica si el elemento existe dentro del arreglo recibido.
-   // Retornar True si está, o False si no está.
+   // Retornar true si está, o false si no está.
    // Tu código:
       if (array.includes(elemento)){
          return true 
@@ -143,7 +143,7 @@ function diaDeLaSemana(numeroDeDia) {
 
 function empiezaConNueve(num) {
    // Esta función recibe por parámetro un número.
-   // Debe retornar True si el entero inicia con 9 y False en otro caso.
+   // Debe retornar true si el entero inicia con 9 y false en otro caso.
    // Tu código:
    var numeroString = num.toString();
    if(numeroString[0] == 9){
@@ -163,7 +163,6 @@ function todosIguales(array) {
       return true 
    }
 }
-
 function mesesDelAño(array) {
    // El arreglo contiene algunos meses del año desordenados. Debes recorrerlo, buscar los meses "Enero",
    // "Marzo" y "Noviembre", guardarlos en un nuevo arreglo y retornarlo.
